@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-playground",
+  "version": "1.0.0",
+  "description": "A simple HTML/JS/CSS starter template",
+  "main": "./src/index.html",
+  "scripts": {
+    "tw:build":"npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhiraj Deshmukh",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
